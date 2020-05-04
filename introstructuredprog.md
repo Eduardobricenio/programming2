@@ -41,10 +41,17 @@ In computer programming, dataflow programming is a programming paradigm that mod
 #### - Logic
 It can be termed as abstract model of computation. It would solve logical problems like puzzles, series etc. In logic programming we have a knowledge base which we know before and along with the question and knowledge base which is given to machine, it produces result. In normal programming languages, such concept of knowledge base is not available but while using the concept of artificial intelligence, machine learning we have some models like Perception model which is using the same mechanism.
 
+#### - sructured
+Structured programming is a kind of imperative programming where control flow is defined by nested loops,
+conditionals,and subroutines, rather than via gotos. Variables are generally local to blocks (have lexical scope)
 
 ### Imperative programming:
 ~~~
 is a programming paradigm that describes computation in terms of statements that change a program state. 
 The declarative programs  can be dually viewed as programming commands or mathematical assertions.
 ~~~
+#### - Object-oriented
+OOP is based on the sending of messages to objects. Objects respond to messages by performing operations, generally called methods. Messages can have arguments. A society of objects, each with their own local memory and own set of operations has a different feel than the monolithic processor and single shared memory feel of non object oriented languages.
 
+#### - Interpreted (Scripting)
+An interpreted program, sometimes called a script , is a program whose instructions are actually a logically sequenced series of operating system commands, handled one at a time by a command interpreter . In turn, the command interpreter requests services from the operating system. The writer of the interpreted program need not be concerned by low-level storage management considerations. On the other hand, an interpreted program can not be as efficient as a compiled program, which has been processed by a language compiler. A language compiler converts source statements into something close to the strings of 0's and 1's that a processor ultimately is given to work on. Because this work is already done before a compiled program is run, it runs much more quickly.
