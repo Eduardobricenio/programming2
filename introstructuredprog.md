@@ -4,7 +4,6 @@ GitHub Members: [Erick Hernandez](https://github.com/Hernandez227/programming2),
 [Eduardo Uicab](https://github.com/Eduardobricenio/programming2)
 
 
-### Describe concepts and characteristics of the classification of programming paradigms:
 #### Programming Paradigms  
 ~~~ 
 Never use the phrase “programming language paradigm.”
@@ -15,7 +14,7 @@ language”) but that does not mean there is any such thing as a “functional l
 ~~~
 
 ### Declarative: Programming by specifying the result you want, not how to get it.
-- Functional
+- Functional: (Applicative): Programming with function calls that avoid any global state.
 - Dataflow
 - Logic, Constraint-based.
 - Template-based
@@ -25,5 +24,9 @@ language”) but that does not mean there is any such thing as a “functional l
 - Interpreted (Scripting)
 - Object-oriented
 
+### Declarative programming: 
+is a programming paradigm that expresses the logic of a computation(What do) without describing its control flow(How do). Some well-known examples of declarative domain specific languages (DSLs) include CSS, regular expressions, and a subset of SQL (SELECT queries, for example) Many markup languages such as HTML, MXML, XAML, XSLT... are often declarative. The declarative programming try to blur the distinction between a program as a set of instructions and a program as an assertion about the desired answer.
 
+### Imperative programming:
+is a programming paradigm that describes computation in terms of statements that change a program state. The declarative programs can be dually viewed as programming commands or mathematical assertions.
 
