@@ -1,10 +1,7 @@
-# repo2
-
-## TEAM   
-
-Erick Hernandez  
-
-Jesus Uicab 
+# Team Members
+*Erick Hernandez, Eduardo Uicab*  
+GitHub Members: [Erick Hernandez](https://github.com/Hernandez227/programming2),
+[Eduardo Uicab](https://github.com/Eduardobricenio/programming2)
 
 ## Programming Paradigms  
 Never use the phrase “programming language paradigm.”
