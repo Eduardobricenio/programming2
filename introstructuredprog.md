@@ -14,13 +14,13 @@ P easy to express, then we often say “L is a P language” (e.g. “Haskell is
 language”) but that does not mean there is any such thing as a “functional language paradigm”.
 ~~~
 
-### Declarative
+### Declarative: Programming by specifying the result you want, not how to get it.
 - Functional
 - Dataflow
 - Logic, Constraint-based.
 - Template-based
 - Structured  
-### Imperative
+### Imperative: Programming with an explicit sequence of commands that update state.
 - Von Neumann
 - Interpreted (Scripting)
 - Object-oriented
