@@ -35,7 +35,7 @@ distinction between a program as a set of instructions and a program as an asser
 #### - Functional:
 The functional programming paradigms has its roots in mathematics and it is language independent. The key principal of this paradigms is the execution of series of mathematical functions. The central model for the abstraction is the function which are meant for some specific computation and not the data structure. Data are loosely coupled to functions.The function hide their implementation. Function can be replaced with their values without changing the meaning of the program. Some of the languages like perl, javascript mostly uses this paradigm.
 
-#### - Dataflow
+#### - [Dataflow](https://en.wikipedia.org/wiki/Dataflow_programming)
 In computer programming, dataflow programming is a programming paradigm that models a program as a directed graph of the data flowing between operations, thus implementing dataflow principles and architecture. Dataflow programming languages share some features of functional languages, and were generally developed in order to bring some functional concepts to a language more suitable for numeric processing. Some authors use the term datastream instead of dataflow to avoid confusion with dataflow computing or dataflow architecture.
 
 #### - Logic
