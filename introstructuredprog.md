@@ -41,7 +41,7 @@ In computer programming, dataflow programming is a programming paradigm that mod
 #### - Logic
 It can be termed as abstract model of computation. It would solve logical problems like puzzles, series etc. In logic programming we have a knowledge base which we know before and along with the question and knowledge base which is given to machine, it produces result. In normal programming languages, such concept of knowledge base is not available but while using the concept of artificial intelligence, machine learning we have some models like Perception model which is using the same mechanism.
 
-#### - sructured
+#### - structured
 Structured programming is a kind of imperative programming where control flow is defined by nested loops,
 conditionals,and subroutines, rather than via gotos. Variables are generally local to blocks (have lexical scope)
 
@@ -55,6 +55,7 @@ OOP is based on the sending of messages to objects. Objects respond to messages 
 
 #### - Interpreted (Scripting)
 An interpreted program, sometimes called a script , is a program whose instructions are actually a logically sequenced series of operating system commands, handled one at a time by a command interpreter . In turn, the command interpreter requests services from the operating system. The writer of the interpreted program need not be concerned by low-level storage management considerations. On the other hand, an interpreted program can not be as efficient as a compiled program, which has been processed by a language compiler. A language compiler converts source statements into something close to the strings of 0's and 1's that a processor ultimately is given to work on. Because this work is already done before a compiled program is run, it runs much more quickly.
+
  ## Data Representations and operators
 Identifier: In C, C++, C# and other programming languages, an identifier is a name that is assigned by the user for a program element such as variable, type, template, class, function or namespace. It is usually limited to letters, digits, and underscores. Certain words, such as "new," "int" and "break," are reserved keywords and cannot be used as identifiers. Identifiers are used to identify a program element in the code. Computer languages have restrictions for which characters can appear in an identifier. For example, in early versions of the C and C++ languages, identifiers were restricted to a sequence of one or more ASCII letters, digits, which may not appear as the first character, and underscores. Later versions of these languages support almost all Unicode characters in an identifier with the exception of white space characters and language operators.
 ##What is a variable in c? A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable. These are some types of variables:
@@ -64,7 +65,7 @@ Identifier: In C, C++, C# and other programming languages, an identifier is a na
 4. Double: A double-precision floating point value.
 5. Void: Represents the absence of type.
 C programming language also allows to define various other types of variables, which we will cover in subsequent chapters like Enumeration, Pointer, Array, Structure, Union, etc. For this chapter, let us study only basic variable types.
-##Constants
+## Constants
 As the name suggests the name constants is given to such variables or values in C/C++ programming language which cannot be modified once they are defined. They are fixed values in a program. There can be any types of constants like integer, float, octal, hexadecimal, character constants etc. You can define it by two ways:
 
 > Using #define preprocessor directive  
