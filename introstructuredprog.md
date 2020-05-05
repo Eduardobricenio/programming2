@@ -55,3 +55,48 @@ OOP is based on the sending of messages to objects. Objects respond to messages 
 
 #### - Interpreted (Scripting)
 An interpreted program, sometimes called a script , is a program whose instructions are actually a logically sequenced series of operating system commands, handled one at a time by a command interpreter . In turn, the command interpreter requests services from the operating system. The writer of the interpreted program need not be concerned by low-level storage management considerations. On the other hand, an interpreted program can not be as efficient as a compiled program, which has been processed by a language compiler. A language compiler converts source statements into something close to the strings of 0's and 1's that a processor ultimately is given to work on. Because this work is already done before a compiled program is run, it runs much more quickly.
+ ## Data Representations and operators
+Identifier: In C, C++, C# and other programming languages, an identifier is a name that is assigned by the user for a program element such as variable, type, template, class, function or namespace. It is usually limited to letters, digits, and underscores. Certain words, such as "new," "int" and "break," are reserved keywords and cannot be used as identifiers. Identifiers are used to identify a program element in the code. Computer languages have restrictions for which characters can appear in an identifier. For example, in early versions of the C and C++ languages, identifiers were restricted to a sequence of one or more ASCII letters, digits, which may not appear as the first character, and underscores. Later versions of these languages support almost all Unicode characters in an identifier with the exception of white space characters and language operators.
+##What is a variable in c? A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable. These are some types of variables:
+1. Char: Typically a single octet(one byte). It is an integer type.
+2. Int: The most natural size of integer for the machine.
+3. Float: A single-precision floating point value.
+4. Double: A double-precision floating point value.
+5. Void: Represents the absence of type.
+C programming language also allows to define various other types of variables, which we will cover in subsequent chapters like Enumeration, Pointer, Array, Structure, Union, etc. For this chapter, let us study only basic variable types.
+##Constants
+As the name suggests the name constants is given to such variables or values in C/C++ programming language which cannot be modified once they are defined. They are fixed values in a program. There can be any types of constants like integer, float, octal, hexadecimal, character constants etc. You can define it by two ways:
+
+> Using #define preprocessor directive  
+> Using a const keyword
+*Literals: The values assigned to each constant variables are referred to as the literals. Generally, both terms, constants and literals are used interchangeably. For eg, “const int = 5;“, is a constant expression and the value 5 is refered to as constant integer literal.
+*Const keyword: Using const keyword to define constants is as simple as defining variables, the difference is you will have to precede the definition with a const keyword.
+
+## Reserved words
+In C, we have 32 keywords, which have their predefined meaning and cannot be used as a variable name. These words are also known as “reserved words”. It is good practice to avoid using these keywords as variable name.
+
+*if, else, switch, case, default: – Used for decision control programming structure.
+*break – Used with any loop OR switch case.
+*int, float, char, double, long – These are the data types and used during variable declaration.
+*for, while, do – types of loop structures in C.
+*void – One of the return type.
+*goto – Used for redirecting the flow of execution.
+*auto, signed, const, extern, register, unsigned – defines a variable.
+*return – This keyword is used for returning a value.
+*continue – It is generally used with for, while and do while loops, when compiler encounters this statement it performs the next iteration of the loop, skipping rest of the statements of current iteration.
+*enum – Set of constants.
+*sizeof – It is used to know the size.
+*struct, typedef – Both of these keywords used in structures (Grouping of data types in a single record).
+*union – It is a collection of variables, which shares the same memory location and memory storage.
+##Types of data: primitives and composites In computer science, a composite data type or compound data type is any data type which can be constructed in a program using the programming language's primitive data types and other composite types. It is sometimes called a structure or aggregate data type, although the latter term may also refer to arrays, lists, etc. The act of constructing a composite type is known as composition. Composite data types are often contrasted with scalar variables.
+
+C language supports four primitive types - char, int, float, void. Primitive types are also known as pre-defined or basic data types.
+
+Data Type | Size | Range | Description |
+--|--
+Char | 1 byte | -128 to +127 | A character |
+Int | 2 or 4 bytes |-32,768 to 32,767 | An integer |
+Float | 4 byte | 1.2E-38 | Single floating point number | Void | 1 byte | | type stores nothing |
+
+## Distributed version control (git)
+Distributed version control (also known as distributed revision control) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer.[1] This enables automatic management branching and merging, speeds up most operations (except pushing and pulling), improves the ability to work offline, and does not rely on a single location for backups
