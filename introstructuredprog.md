@@ -106,3 +106,34 @@ Void		| 1 byte 	 |			 | type stores nothing 	|
 
 ## Distributed version control (git)	  
 [Distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control) (also known as distributed revision control) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer.[1] This enables automatic management branching and merging, speeds up most operations (except pushing and pulling), improves the ability to work offline, and does not rely on a single location for backups
+
+## 3.1 Git Branching - Branches in a Nutshell
+
+
+Nearly every VCS has some form of branching support. Branching means you diverge from the main line of development and continue to do work without messing with that main line. In many VCS tools, this is a somewhat expensive process, often requiring you to create a new copy of your source code directory, which can take a long time for large projects.
+  
+Branches in a Nutshell
+To really understand the way Git does branching, we need to take a step back and examine how Git stores its data.
+
+As you may remember from Getting Started, Git doesn’t store data as a series of changesets or differences, but instead as a series of snapshots.
+
+When you make a commit, Git stores a commit object that contains a pointer to the snapshot of the content you staged. This object also contains the author’s name and email address, the message that you typed, and pointers to the commit or commits that directly came before this commit (its parent or parents): zero parents for the initial commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or more branches.
+
+To visualize this, let’s assume that you have a directory containing three files, and you stage them all and commit. Staging the files computes a checksum for each one (the SHA-1 hash we mentioned in Getting Started), stores that version of the file in the Git repository (Git refers to them as blobs), and adds that checksum to the staging area:
+~~~
+$ git add README test.rb LICENSE
+$ git commit -m 'Initial commit'
+~~~
+Creating a New Branch
+What happens when you create a new branch? Well, doing so creates a new pointer for you to move around. Let’s say you want to create a new branch called testing. You do this with the git branch command:
+~~~
+$ git branch testing
+~~~
+
+Figure 13. HEAD pointing to a branch
+You can easily see this by running a simple git log command that shows you where the branch pointers are pointing. This option is called --decorate.
+~~~
+$ git log --oneline --decorate
+f30ab (HEAD -> master, testing) Add feature #32 - ability to add new formats to the central interface
+34ac2 Fix bug #1328 - stack overflow under certain conditions
+98ca9 Initial commit
