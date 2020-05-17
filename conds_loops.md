@@ -29,3 +29,18 @@ Example:
     return 0;
   }
 ~~~
+### Variable
+In programming, a variable is made up of a space in the storage system (main memory of a computer) and a symbolic name (an identifier) ​​that is associated with said space. This space contains a known or unknown quantity or information, that is, a value. The variable name is the usual form of reference to the stored value: this separation between name and content allows the name to be used specifically for the exact information it represents.
+~~~
+- Integers: are integers that can be both positive and negative. They are defined using char, int, short, long or long long.
+
+- Unsigned integers: are integers that can only be positive. Defined using unsigned char, unsigned int, unsigned short, unsigned long or unsigned long long.
+
+- Floating point numbers: are real numbers (fractional numbers). They are defined using float and double.
+
+- Structures: these will be explained later in the Structures section.
+~~~
+
+### Reserved Words
+
+In computer languages, reserved words are specific that have a specific use for the language and therefore cannot be used in the code as identifiers (for example, names for variables).
