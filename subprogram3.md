@@ -1,4 +1,9 @@
 ## programming2
+# Team Members
+*Erick Hernandez, Eduardo Uicab*  
+GitHub Members: [Erick Hernandez](https://github.com/Hernandez227/programming2),
+[Eduardo Uicab](https://github.com/Eduardobricenio/programming2)
+## programming2
 ### Subprograms
 ~~~
 A subprogram is a program unit that can be invoked from another program unit to perform a specific task. These subprograms are either written by the user or supplied as part of the Fortran library.
