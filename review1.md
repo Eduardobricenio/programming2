@@ -12,10 +12,10 @@ A variable is a space to store modifiable data, in the memory of a computer. In 
 variable_name = variable_value
 Each variable has a name and a value, which defines, at the same time, the data type of the variable. There is a type of variable, called a constant, which is used to define fixed values, which
 
-# Right
+### Right
 my_variable = 12
 
-# Incorrect
+### Incorrect
 MyVariable = 12
 mivariable = 12
 
