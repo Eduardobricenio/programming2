@@ -2,6 +2,8 @@
 
 
 # Review of everything learned
+## python 3
+## Team members Jesus Eduardo Uicab   Erick Hernandez
 
 We first saw the basics of phon starting to see the variables and symbols of this new programming language for us.
 
@@ -30,6 +32,9 @@ Diccionarios
 Estos tres tipos, pueden almacenar colecciones de datos de diversos tipos y se diferencian por su sintaxis y por la forma en la cual los datos pueden ser manipulados.
 - print (print): it serves to show in detail or that the programmer you want to capture
 - - Lists: A list is similar to a tuple with the fundamental difference that it allows modifying the data once created: my_list = ['text string', 15, 2.8, 'other data', 25]
+- While loop: This loop is in charge of executing the same action "while" a certain condition is met.
+- For loop: The for loop, in Python, is the one that will allow us to iterate over a complex variable, of the list or tuple type.
+
 
 ~~~
 == Same as 5 == 7 False
